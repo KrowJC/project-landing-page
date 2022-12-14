@@ -1,7 +1,12 @@
 body {
     height: 100vh;
     margin: 0;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -12,12 +17,23 @@ a {
 
 .hero {
     background-color: #1F2937;
+    padding-bottom: 130px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 110px;
 }
 
 .header {
-    padding: 16px;
+    width: 1000px;
+    padding: 16px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -36,34 +52,28 @@ a {
     gap: 20px;
 }
 
-.hero-content {
+.modal-placeholder {
+    width: 1000px;
     display: flex;
-    justify-content: center;
-    padding: 150px;
-    gap: 32px;
+    gap: 50px;
 }
 
 .top-modal {
-    display: flex;
-    flex-direction: column;
-    width: 510px;
-    gap: 10px;
+    
 }
 
 .top-modal-title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    width: 400px;
+    margin: 0;
 }
 
 .top-modal-info {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.modal-button-container {
-
+    margin: 0;
+    padding: 5px 10px 10px 0;
 }
 
 .modal-button {
@@ -74,16 +84,17 @@ a {
     border-radius: 5px;
     padding: 5px 32px;
     font-weight: 700;
+    margin: auto;
 }
 
 .placeholder {
     font-size: 18px;
     color: #E5E7EB;
     background-color: gray;
-    width: 510px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1000px;
 }
 
 .container-2 {
@@ -148,6 +159,7 @@ a {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    font-family: 'Montserrat';
 }
 
 .quote-author {
